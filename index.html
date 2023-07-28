@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Gordeev</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <table cellspacing="15">
+        <tr>
+            <td>
+            <img class="avatar" src="./img/foto.jpg" alt="Foto">
+            </td>
+            <td>
+            <h1> Алексей Гордеев</h1>
+            <p><em>Начинающий программист.</em></p>
+            <p>Я люблю свою семью.</P>
+            </td>
+        </tr>
+    </table> -->
+    <div class="container">
+        <div class="info">
+            <img src="./img/foto.jpg" alt="Foto" class="avatar">
+            <div class="info-text">
+                <h1> Алексей Гордеев</h1>
+                <p>Начинающий программист.</p>
+                <p>Я люблю свою семью.</P>
+
+                <h4>Мои социальные сети:</h4>
+                 <a href="https://www.facebook.com/" target="_blank">Facebook</a> 
+                    |
+                 <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    |
+                 <a href="https://vk.com/" target="_blank"> Vkontakte</a>
+                    |
+                 <a href="https://ok.ru/" target="_blank"> Odnoklasniki</a>
+             </div> 
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби:</h2>
+            <ol class="list">
+                <li>Шахматы</li>
+                <li>Волейбол</li>
+                <li>Чтение</li>
+            </ol>
+       </div>
+        
+        <div class="card bg-green">
+          <h2>Опыт работы:</h2>
+            <table class="table">
+               
+                <!-- <tr>
+                    <th>Компания</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                </tr> -->
+                <tr>
+                    <td>LPTracker</td>
+                    <td>Frontend</td>
+                    <td>2015-2016</td>
+                </tr>
+                <tr>
+                    <td>EPAM</td>
+                    <td>Software engineer</td>
+                    <td>2016-2017</td>
+                </tr>
+                <tr>
+                    <td>Software Outsorsing Servises</td>
+                    <td>Lead Frontend</td>
+                    <td>2017-2019</td>
+                </tr>  
+                <tr>
+                    <td>Youtube</td>
+                    <td>Blogger</td>
+                    <td>2019-now</td>
+                </tr>  
+            </table>   
+        </div>
+
+        <div class="card bg-red">
+            <h2>Youtube обучение:</h2>
+                <ul class="link-list">
+                    <li><a href="https://www.youtube.com/watch?v=DOEtVdkKwcU&ab_channel=" target="_blank">HTML для Начинающих</a></li>
+                    <li> <a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=4095s&ab_channel=" target="_blank">CSS для Начинающих</a></li>
+                </ul>
+        </div>
+        
+        <div class="contact">
+            <h2>Связаться со мной:</h2>
+            <form action="/">
+                <div class="row">
+                    <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите ваше имя...">
+                   </div>
+                    
+                    <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите ваш Email...">
+                </div>
+             </div>
+                
+             <div class="form-group">
+                <label for="text"> Ваше сообщение:</label>
+                <textarea id="text" cols="15" rows="2"></textarea>
+            </div>
+                
+
+                <input class="btn" type="submit" value="Связаться!">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
